@@ -3781,7 +3781,7 @@ Game.Launch=function()
 					}
 					else if (choice=='frenzy')
 					{
-						buff=Game.gainBuff('frenzy',Math.ceil(77*effectDurMod),7);
+						buff=Game.gainBuff('frenzy',Math.ceil(77*effectDurMod),69);
 					}
 					else if (choice=='dragon harvest')
 					{
@@ -3818,7 +3818,7 @@ Game.Launch=function()
 					}
 					else if (choice=='click frenzy')
 					{
-						buff=Game.gainBuff('click frenzy',Math.ceil(13*effectDurMod),777);
+						buff=Game.gainBuff('click frenzy',Math.ceil(13*effectDurMod),6666);
 					}
 					else if (choice=='dragonflight')
 					{
@@ -5008,7 +5008,7 @@ Game.Launch=function()
 				'<q>Moist cookies.</q><sig>grandma</sig>',
 				'<q>We\'re nice grandmas.</q><sig>grandma</sig>',
 				'<q>Indentured servitude.</q><sig>grandma</sig>',
-				'<q>Come give grandma a kiss.</q><sig>grandma</sig>',
+				'<q>Your Retarted But We can Fix That!</q><sig>grandma</sig>',
 				'<q>Why don\'t you visit more often?</q><sig>grandma</sig>',
 				'<q>Call me...</q><sig>grandma</sig>'
 				]));
@@ -5018,14 +5018,14 @@ Game.Launch=function()
 				'<q>You make me sick.</q><sig>grandma</sig>',
 				'<q>You disgust me.</q><sig>grandma</sig>',
 				'<q>We rise.</q><sig>grandma</sig>',
-				'<q>It begins.</q><sig>grandma</sig>',
+				'<q>Your Retarted But We can Fix That!</q><sig>grandma</sig>',
 				'<q>It\'ll all be over soon.</q><sig>grandma</sig>',
 				'<q>You could have stopped it.</q><sig>grandma</sig>'
 				]));
 				
 				if (Game.HasAchiev('Just wrong') && Math.random()<0.4) list.push(choose([
 				'News : cookie manufacturer downsizes, sells own grandmother!',
-				'<q>It has betrayed us, the filthy little thing.</q><sig>grandma</sig>',
+				'<q>Your Retarted But We can Fix That!</q><sig>grandma</sig>',
 				'<q>It tried to get rid of us, the nasty little thing.</q><sig>grandma</sig>',
 				'<q>It thought we would go away by selling us. How quaint.</q><sig>grandma</sig>',
 				'<q>I can smell your rotten cookies.</q><sig>grandma</sig>'
@@ -5036,7 +5036,7 @@ Game.Launch=function()
 				'<q>writhe</q><sig>grandma</sig>',
 				'<q>throb</q><sig>grandma</sig>',
 				'<q>gnaw</q><sig>grandma</sig>',
-				'<q>We will rise again.</q><sig>grandma</sig>',
+				'<q>Your more than worse</q><sig>grandma</sig>',
 				'<q>A mere setback.</q><sig>grandma</sig>',
 				'<q>We are not satiated.</q><sig>grandma</sig>',
 				'<q>Too late.</q><sig>grandma</sig>'
@@ -5077,7 +5077,7 @@ Game.Launch=function()
 				if (Game.Objects['Temple'].amount>0) list.push(choose([
 				'News : explorers bring back ancient artifact from abandoned temple; archeologists marvel at the centuries-old '+choose(['magic','carved','engraved','sculpted','royal','imperial','mummified','ritual','golden','silver','stone','cursed','plastic','bone','blood','holy','sacred','sacrificial','electronic','singing','tapdancing'])+' '+choose(['spoon','fork','pizza','washing machine','calculator','hat','piano','napkin','skeleton','gown','dagger','sword','shield','skull','emerald','bathtub','mask','rollerskates','litterbox','bait box','cube','sphere','fungus'])+'!',
 				'News : recently-discovered chocolate temples now sparking new cookie-related cult; thousands pray to Baker in the sky!',
-				'News : just how extensive is the cookie pantheon? Theologians speculate about possible '+choose(['god','goddess'])+' of '+choose(animals,choose(['kazoos','web design','web browsers','kittens','atheism','handbrakes','hats','aglets','elevator music','idle games','the letter "P"','memes','hamburgers','bad puns','kerning','stand-up comedy','failed burglary attempts','clickbait','one weird tricks']))+'.',
+				'News : Your Retarted But We can Fix That! '+choose(['god','goddess'])+' of '+choose(animals,choose(['kazoos','web design','web browsers','kittens','atheism','handbrakes','hats','aglets','elevator music','idle games','the letter "P"','memes','hamburgers','bad puns','kerning','stand-up comedy','failed burglary attempts','clickbait','one weird tricks']))+'.',
 				'News : theists of the world discover new cookie religion - "Oh boy, guess we were wrong all along!"',
 				'News : cookie heaven allegedly "sports elevator instead of stairway"; cookie hell "paved with flagstone, as good intentions make for poor building material".'
 				]));
@@ -6942,10 +6942,10 @@ Game.Launch=function()
 		new Game.Upgrade('Reinforced index finger','The mouse and cursors are <b>twice</b> as efficient.<q>prod prod</q>',100,[0,0]);
 		new Game.Upgrade('Carpal tunnel prevention cream','The mouse and cursors are <b>twice</b> as efficient.<q>it... it hurts to click...</q>',500,[0,1]);
 		new Game.Upgrade('Ambidextrous','The mouse and cursors are <b>twice</b> as efficient.<q>Look ma, both hands!</q>',10000,[0,2])
-		new Game.Upgrade('Thousand fingers','The mouse and cursors gain <b>+0.1</b> cookies for each non-cursor object owned.<q>clickity</q>',100000,[0,13]);
-		new Game.Upgrade('Million fingers','The mouse and cursors gain <b>+0.5</b> cookies for each non-cursor object owned.<q>clickityclickity</q>',10000000,[0,14]);
-		new Game.Upgrade('Billion fingers','The mouse and cursors gain <b>+5</b> cookies for each non-cursor object owned.<q>clickityclickityclickity</q>',100000000,[0,15]);
-		new Game.Upgrade('Trillion fingers','The mouse and cursors gain <b>+50</b> cookies for each non-cursor object owned.<q>clickityclickityclickityclickity</q>',1000000000,[0,16]);
+		new Game.Upgrade('Thousand fingers','The mouse and cursors gain <b>+500</b> cookies for each non-cursor object owned.<q>clickity</q>',100000,[0,13]);
+		new Game.Upgrade('Million fingers','The mouse and cursors gain <b>+5000</b> cookies for each non-cursor object owned.<q>clickityclickity</q>',10000000,[0,14]);
+		new Game.Upgrade('Billion fingers','The mouse and cursors gain <b>+10000</b> cookies for each non-cursor object owned.<q>clickityclickityclickity</q>',100000000,[0,15]);
+		new Game.Upgrade('Trillion fingers','The mouse and cursors gain <b>+50000</b> cookies for each non-cursor object owned.<q>clickityclickityclickityclickity</q>',1000000000,[0,16]);
 		
 		order=200;
 		new Game.TieredUpgrade('Forwards from grandma','Grandmas are <b>twice</b> as efficient.<q>RE:RE:thought you\'d get a kick out of this ;))</q>','Grandma',1);
@@ -7000,7 +7000,6 @@ Game.Launch=function()
 		Game.NewUpgradeCookie({name:'White chocolate cookies',desc:'I know what you\'ll say. It\'s just cocoa butter! It\'s not real chocolate!<br>Oh please.',icon:[4,3],power:2,	price:	99999999*5});
 		Game.NewUpgradeCookie({name:'Macadamia nut cookies',desc:'They\'re macadamn delicious!',icon:[5,3],power:								2,	price:	999999999});
 		Game.NewUpgradeCookie({name:'Double-chip cookies',desc:'DOUBLE THE CHIPS<br>DOUBLE THE TASTY<br>(double the calories)',icon:[6,3],power:2,	price:	999999999*5});
-		Game.NewUpgradeCookie({name:'White chocolate macadamia nut cookies',desc:'Orteil\'s favorite.',icon:[8,3],power:						2,	price:	9999999999});
 		Game.NewUpgradeCookie({name:'All-chocolate cookies',desc:'CHOCOVERDOSE.',icon:[9,3],power:												2,	price:	9999999999*5});
 		
 		order=100;
@@ -8865,7 +8864,7 @@ Game.Launch=function()
 				icon:[10,14],
 				time:time*Game.fps,
 				add:true,
-				multCpS:pow,
+				multCpS:69,
 				aura:1
 			};
 		});
@@ -8938,7 +8937,7 @@ Game.Launch=function()
 				icon:[0,14],
 				time:time*Game.fps,
 				add:true,
-				multClick:pow,
+				multClick:6666,
 				aura:1
 			};
 		});
